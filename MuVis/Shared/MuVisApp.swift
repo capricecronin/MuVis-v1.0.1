@@ -10,7 +10,7 @@ import SwiftUI
 
 // Declare and intialize global constants and variables:
 var showMSPF: Bool = false			// display the Performance Monitor's "milliseconds per frame"
-var subtitle: String = "hello"      // needed in ContentView()
+var subtitle: String = "hello"      // needed in ContentVie()
 
 let notesPerOctave   = 12   // An octave contains 12 musical notes.
 let pointsPerNote    = 12   // The number of frequency samples within one musical note.
