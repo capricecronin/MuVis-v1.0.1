@@ -82,7 +82,7 @@ struct MusicSpectrum_Live: View {
             }
 
             context.stroke( path,
-                            with: .color(red: 1.0, green: 0.0, blue: 0.0, opacity: 1.0),
+                            with: .color(red: 0.0, green: 0.1, blue: 0.9, opacity: 0.5),
                             lineWidth: 2.0 )
                             
             

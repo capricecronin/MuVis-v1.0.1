@@ -103,7 +103,7 @@ class AudioManager: ObservableObject {
         }
     }
 
-    var selectedSongURL = Bundle.main.url(forResource: "music", withExtension: "mp3")  // Play this song when MuVis app starts.
+    var selectedSongURL = Bundle.main.url(forResource: "will-u-go-2-the-dance-w-me", withExtension: "wav")  // Play this song when MuVis app starts.
    
     var engine: AVAudioEngine!
     var player = AVAudioPlayerNode()    // player will read and play our song file

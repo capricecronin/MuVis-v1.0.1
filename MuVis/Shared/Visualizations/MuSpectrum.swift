@@ -72,7 +72,7 @@ struct MuSpectrum_Live: View {
                     cgContext.addLine(to: CGPoint(x: x, y: y))
                 }
                 
-                cgContext.setStrokeColor(CGColor.init(red: 1.0, green: 0.0, blue: 0.0, alpha: 1.0))
+                cgContext.setStrokeColor(CGColor.init(red: 0.0, green: 0.0, blue: 1.0, alpha: 1.0))
                 cgContext.setLineWidth(2.0)
                 cgContext.drawPath(using: CGPathDrawingMode.stroke)
             }
@@ -97,7 +97,7 @@ struct MuSpectrum_Live: View {
                     cgContext.addLine(to: CGPoint(x: x, y: y))
                 }
 
-                cgContext.setStrokeColor(CGColor.init(red: 0.0, green: 0.0, blue: 1.0, alpha: 1.0))
+                cgContext.setStrokeColor(CGColor.init(red: 0.1, green: 0.2, blue: 0.7, alpha: 1.0))
                 cgContext.setLineWidth(2.0)
                 cgContext.drawPath(using: CGPathDrawingMode.stroke)
             }

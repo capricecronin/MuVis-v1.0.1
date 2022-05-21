@@ -95,8 +95,8 @@ struct Spectrum: View {
                         
                             context.fill( path,
                                           with: .color( (settings.selectedColorScheme == .light) ?
-                                                        Color.lightGray.opacity(0.25) :
-                                                        Color.black.opacity(0.25) ) )
+                                                        Color.blue.opacity(0.25) :
+                                                        Color.black.opacity(0.5) ) )
 
                             // context.stroke( path,
                             //                 with: .color( Color.black),
@@ -126,7 +126,7 @@ struct Spectrum: View {
             }
 
             context.stroke( path,
-                            with: .color( Color(red: 1.0, green: 0.0, blue: 0.0) ),
+                            with: .color( Color(red:0.0, green: 0.3, blue: 0.2) ),
                             lineWidth: 2.0 )
 
 

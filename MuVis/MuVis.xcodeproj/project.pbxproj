@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		993B0610283989BF00AF97C9 /* will-u-go-2-the-dance-w-me.wav in Resources */ = {isa = PBXBuildFile; fileRef = 993B060F283989BF00AF97C9 /* will-u-go-2-the-dance-w-me.wav */; };
+		993B0611283989BF00AF97C9 /* will-u-go-2-the-dance-w-me.wav in Resources */ = {isa = PBXBuildFile; fileRef = 993B060F283989BF00AF97C9 /* will-u-go-2-the-dance-w-me.wav */; };
 		A301F23D27F38122003BA424 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A301F23C27F38122003BA424 /* README.md */; };
 		A301F23E27F38122003BA424 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A301F23C27F38122003BA424 /* README.md */; };
 		A314EA612773BE6F00FD08FD /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A314EA602773BE6F00FD08FD /* AudioManager.swift */; };
@@ -82,6 +84,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		993B060F283989BF00AF97C9 /* will-u-go-2-the-dance-w-me.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "will-u-go-2-the-dance-w-me.wav"; sourceTree = "<group>"; };
 		A301F23C27F38122003BA424 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A314EA602773BE6F00FD08FD /* AudioManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
 		A32920F12780E6690068BE6D /* Waterfall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Waterfall.swift; sourceTree = "<group>"; };
@@ -103,7 +106,7 @@
 		A38DEF6826DAC5A300C537C8 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		A38DEF6A26DAC5A300C537C8 /* SpectralEnhancer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpectralEnhancer.swift; sourceTree = "<group>"; };
 		A38DEF7D26DAC72C00C537C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A38DEF8326DAC81A00C537C8 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		A38DEF8326DAC81A00C537C8 /* music.mp3 */ = {isa = PBXFileReference; explicitFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
 		A38DEF8626DAC8C800C537C8 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		A38DEFCF26DADB2600C537C8 /* SpinningEllipse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinningEllipse.swift; sourceTree = "<group>"; };
 		A38DEFD126DADB2600C537C8 /* TriOctSpectrum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriOctSpectrum.swift; sourceTree = "<group>"; };
@@ -146,6 +149,7 @@
 		A38DEF3E26DAC22B00C537C8 = {
 			isa = PBXGroup;
 			children = (
+				993B060F283989BF00AF97C9 /* will-u-go-2-the-dance-w-me.wav */,
 				A301F23C27F38122003BA424 /* README.md */,
 				A367093C26E6B05500FC295D /* Documentation */,
 				A38DEF8326DAC81A00C537C8 /* music.mp3 */,
@@ -313,6 +317,7 @@
 				A301F23D27F38122003BA424 /* README.md in Resources */,
 				A367093D26E6B05500FC295D /* Documentation in Resources */,
 				A38DEF7E26DAC72C00C537C8 /* Assets.xcassets in Resources */,
+				993B0610283989BF00AF97C9 /* will-u-go-2-the-dance-w-me.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +330,7 @@
 				A301F23E27F38122003BA424 /* README.md in Resources */,
 				A367093E26E6B05500FC295D /* Documentation in Resources */,
 				A38DEF7F26DAC72C00C537C8 /* Assets.xcassets in Resources */,
+				993B0611283989BF00AF97C9 /* will-u-go-2-the-dance-w-me.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -530,7 +536,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 4;
-				DEVELOPMENT_TEAM = GZ962756J3;
+				DEVELOPMENT_TEAM = DF745Z35KN;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -539,7 +545,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.1;
-				PRODUCT_BUNDLE_IDENTIFIER = GZ962756J3.com.me.kbromley.MuVis;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rackle.MuVis;
 				PRODUCT_NAME = MuVis;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -554,7 +560,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 4;
-				DEVELOPMENT_TEAM = GZ962756J3;
+				DEVELOPMENT_TEAM = DF745Z35KN;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -563,7 +569,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.1;
-				PRODUCT_BUNDLE_IDENTIFIER = GZ962756J3.com.me.kbromley.MuVis;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rackle.MuVis;
 				PRODUCT_NAME = MuVis;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;

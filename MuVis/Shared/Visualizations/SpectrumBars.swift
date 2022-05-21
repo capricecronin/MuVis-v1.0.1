@@ -18,7 +18,7 @@ struct SpectrumBars: View {
     @EnvironmentObject var audioManager: AudioManager  // Observe the instance of AudioManager passed from ContentView
     @EnvironmentObject var settings: Settings
     
-    var linearGradient : LinearGradient = LinearGradient(gradient: Gradient(colors: [.red, .yellow, .green]), startPoint: .top, endPoint: .center)
+    var linearGradient : LinearGradient = LinearGradient(gradient: Gradient(colors: [.green,.blue, .green]), startPoint: .top, endPoint: .center)
     var paddingFraction: CGFloat = 0.2
     var includeCaps: Bool = true
 
