@@ -220,7 +220,7 @@ class Settings: ObservableObject {
 
     // Define a Gradient that cycles through the same color sequence as the standard "hue":
     // This is used in the OctaveAlignedSpectrum visualization.
-    let hueGradient: Gradient = Gradient(colors: [Color(red: 1.0, green: 0.0, blue: 0.0),     // red
+    let hueGradient: Gradient = Gradient(colors: [Color(red: 0.8, green: 0.1, blue: 0.1),     // red
                                                   Color(red: 1.0, green: 1.0, blue: 0.0),     // yellow
                                                   Color(red: 0.0, green: 1.0, blue: 0.0),     // green
                                                   Color(red: 0.0, green: 1.0, blue: 1.0),     // cyan
@@ -231,32 +231,32 @@ class Settings: ObservableObject {
 
     // Define a Gradient that cycles 3 times through the same color sequence as the standard "hue":
     // This is used in the TriOctMuSpectrum visualization.
-    let hue3Gradient: Gradient = Gradient(colors: [Color(red: 1.0, green: 0.0, blue: 0.0),     // red
-                                                   Color(red: 1.0, green: 1.0, blue: 0.0),     // yellow
-                                                   Color(red: 0.0, green: 1.0, blue: 0.0),     // green
+    let hue3Gradient: Gradient = Gradient(colors: [Color(red: 0.8, green: 0.1, blue: 0.1),  // red
+                                                   Color(red: 1.0, green: 0.9, blue: 0.1),     // yellow
+                                                   Color(red: 0.0, green: 0.9, blue: 0.1),     // green
+                                                   Color(red: 0.0, green: 1.0, blue: 1.0),     // cyan
+                                                   Color(red: 0.0, green: 0.0, blue: 1.0),     // blue
+                                                   Color(red: 0.9, green: 0.1, blue: 1.0),     // magenta
+                                                   Color(red: 0.8, green: 0.1, blue: 0.1),     // red
+                                                   Color(red: 1.0, green: 0.9, blue: 0.1),     // yellow
+                                                   Color(red: 0.0, green: 0.9, blue: 0.1),     // green
+                                                   Color(red: 0.0, green: 1.0, blue: 1.0),     // cyan
+                                                   Color(red: 0.0, green: 0.0, blue: 1.0),     // blue
+                                                   Color(red: 0.9, green: 0.1, blue: 1.0),     // magenta
+                                                   Color(red: 0.8, green: 0.1, blue: 0.1),     // red
+                                                   Color(red: 1.0, green: 0.9, blue: 0.1),     // yellow
+                                                   Color(red: 0.0, green: 0.9, blue: 0.1),     // green
                                                    Color(red: 0.0, green: 1.0, blue: 1.0),     // cyan
                                                    Color(red: 0.0, green: 0.0, blue: 1.0),     // blue
                                                    Color(red: 1.0, green: 0.0, blue: 1.0),     // magenta
-                                                   Color(red: 1.0, green: 0.0, blue: 0.0),     // red
-                                                   Color(red: 1.0, green: 1.0, blue: 0.0),     // yellow
-                                                   Color(red: 0.0, green: 1.0, blue: 0.0),     // green
-                                                   Color(red: 0.0, green: 1.0, blue: 1.0),     // cyan
-                                                   Color(red: 0.0, green: 0.0, blue: 1.0),     // blue
-                                                   Color(red: 1.0, green: 0.0, blue: 1.0),     // magenta
-                                                   Color(red: 1.0, green: 0.0, blue: 0.0),     // red
-                                                   Color(red: 1.0, green: 1.0, blue: 0.0),     // yellow
-                                                   Color(red: 0.0, green: 1.0, blue: 0.0),     // green
-                                                   Color(red: 0.0, green: 1.0, blue: 1.0),     // cyan
-                                                   Color(red: 0.0, green: 0.0, blue: 1.0),     // blue
-                                                   Color(red: 1.0, green: 0.0, blue: 1.0),     // magenta
-                                                   Color(red: 1.0, green: 0.0, blue: 0.0)])    // red
+                                                   Color(red: 0.8, green: 0.1, blue: 0.1)])    // red
                                                   
                                                   
     // Define a Gradient that cycles 6 times through the same color sequence as the standard "hue":
     // This is used in the Wormhole visualization.
-    let hue6Gradient: Gradient = Gradient(colors: [Color(red: 1.0, green: 0.0, blue: 0.0),     // red
-                                                   Color(red: 1.0, green: 1.0, blue: 0.0),     // yellow
-                                                   Color(red: 0.0, green: 1.0, blue: 0.0),     // green
+    let hue6Gradient: Gradient = Gradient(colors: [Color(red: 0.8, green: 0.1, blue: 0.1),     // red edited
+                                                   Color(red: 1.0, green: 0.9, blue: 0.1),     // yellow
+                                                   Color(red: 0.0, green: 0.8, blue: 0.2),     // green
                                                    Color(red: 0.0, green: 1.0, blue: 1.0),     // cyan
                                                    Color(red: 0.0, green: 0.0, blue: 1.0),     // blue
                                                    Color(red: 1.0, green: 0.0, blue: 1.0),     // magenta

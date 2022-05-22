@@ -317,7 +317,7 @@ struct LissajousFigure : View {
             }
 
             context.stroke( path,
-                            with: .color(red: 1.0, green: 0.0, blue: 0.0, opacity: 1.0),
+                            with: .color(red: 0.1, green: 0.2, blue: 0.7, opacity: 0.85),
                             lineWidth: (settings.optionOn) ? 0.0 : 4.0 )
             
             
