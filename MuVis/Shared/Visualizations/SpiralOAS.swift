@@ -290,7 +290,7 @@ struct SpiralOAS_Live: View {
             if(settings.optionOn == false) {
                 // fill the 8 paths with a Pomegranate color:
                 context.fill(   path,
-                                with: .color(red: 192.0/255.0, green: 57.0/255.0, blue: 43.0/255.0) ) // pomegranate red
+                                with: .color(red: 58.0/255.0, green: 43.0/255.0, blue: 191.0/255.0) ) // I changed the color here
             } else {
                 // Fill the 8 paths with an angular gradient cycling through the "hue" colors:
                 context.fill( path,
