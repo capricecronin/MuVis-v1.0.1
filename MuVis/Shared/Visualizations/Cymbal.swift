@@ -94,7 +94,7 @@ struct Cymbal: View {
                     }
                     else {
                         cgContext.addArc(center: center, radius: radiusX, startAngle: 0.0, endAngle: .pi * 2.0, clockwise: true)
-                        cgContext.setStrokeColor(CGColor.init(red: 1.0, green: 0.0, blue: 0.0, alpha: 1.0))
+                        cgContext.setStrokeColor(CGColor.init(red: 0.0, green: 0.7, blue: 0.3, alpha: 1.0))
                         cgContext.strokePath()
                     }
 
@@ -123,7 +123,7 @@ struct Cymbal: View {
                             if(settings.optionOn == true) {      // render four-fold muSpectrum in red
                                 cgContext.setStrokeColor(CGColor.init(red: 1.0, green: 0.0, blue: 0.0, alpha: 1.0))
                             }else {                     // render four-fold muSpectrum in green
-                                cgContext.setStrokeColor(CGColor.init(red: 0.0, green: 1.0, blue: 0.0, alpha: 1.0))
+                                cgContext.setStrokeColor(CGColor.init(red: 0.4, green: 0.1, blue: 0.5, alpha: 1.0))
                             }
 
                             cgContext.setLineWidth(1.0)
