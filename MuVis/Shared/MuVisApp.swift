@@ -30,18 +30,18 @@ extension Color {
     static let lightGray        = Color(red: 0.7, green: 0.7, blue: 0.7)    // denotes accidental notes in keyboard overlay in light mode
     static let darkGray         = Color(red: 0.3, green: 0.3, blue: 0.3)    // denotes natural notes in keyboard overlay in dark mode
     
-    static let noteC_Color      = Color(red: 1.0, green: 0.0, blue: 0.0)    // red
-    static let noteCsharp_Color = Color(red: 1.0, green: 0.5, blue: 0.0)
-    static let noteD_Color      = Color(red: 1.0, green: 1.0, blue: 0.0)    // yellow
-    static let noteDsharp_Color = Color(red: 0.1, green: 1.0, blue: 0.0)
-    static let noteE_Color      = Color(red: 0.0, green: 1.0, blue: 0.0)    // green
-    static let noteF_Color      = Color(red: 0.0, green: 1.0, blue: 0.7)
-    static let noteFsharp_Color = Color(red: 0.0, green: 1.0, blue: 1.0)    // cyan
-    static let noteG_Color      = Color(red: 0.0, green: 0.5, blue: 1.0)
-    static let noteGsharp_Color = Color(red: 0.0, green: 0.0, blue: 1.0)	// blue
-    static let noteA_Color      = Color(red: 0.5, green: 0.0, blue: 1.0)
-    static let noteAsharp_Color = Color(red: 1.0, green: 0.0, blue: 1.0)    // magenta
-    static let noteB_Color      = Color(red: 1.0, green: 0.0, blue: 0.7)
+    static let noteC_Color      = Color(red: 0.0, green: 1.0, blue: 0.0)    // red
+    static let noteCsharp_Color = Color(red: 0.0, green: 0.9, blue: 0.1)
+    static let noteD_Color      = Color(red: 0.0, green: 0.7, blue: 0.3)    // yellow
+    static let noteDsharp_Color = Color(red: 0.0, green: 0.5, blue: 0.5)
+    static let noteE_Color      = Color(red: 0.0, green: 0.3, blue: 0.7)    // green
+    static let noteF_Color      = Color(red: 0.2, green: 0.1, blue: 0.7)
+    static let noteFsharp_Color = Color(red: 0.5, green: 0.0, blue: 0.5)    // cyan
+    static let noteG_Color      = Color(red: 0.0, green: 0.0, blue: 1.0)
+    static let noteGsharp_Color = Color(red: 0.0, green: 0.3, blue: 0.7)	// blue
+    static let noteA_Color      = Color(red: 0.0, green: 0.5, blue: 0.5)
+    static let noteAsharp_Color = Color(red: 0.1, green: 0.5, blue: 0.4)    // magenta
+    static let noteB_Color      = Color(red: 0.0, green: 0.8, blue: 0.2)
 }
 
 let noteColor: [Color] = [  Color.noteC_Color, Color.noteCsharp_Color, Color.noteD_Color, Color.noteDsharp_Color,
